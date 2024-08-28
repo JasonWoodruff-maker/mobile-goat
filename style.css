@@ -1,12 +1,19 @@
-.pic-1-container {
+.flexy {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .pic-1 {
-  width: 30%;
-  height: 30%;
+  height: 65vh;
   border-radius: 300%;
+}
+
+.Main_txt {
+  width: 35vw;
+}
+
+.vid-container {
+  width: 35vw;
 }
 
 h1 {
@@ -22,4 +29,36 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+}
+p {
+  color: white;
+}
+.pic2 {
+  height: 65vh;
+  border-radius: 300%;
+}
+.pic3 {
+  height: 45vh;
+  border-radius: 300%;
+  left: 100px;
+}
+table {
+  border: 1px solid blue;
+  position: relative;
+  bottom: 250px;
+}
+td {
+  border: 1px solid gray;
+}
+
+.pic3-cont {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 400px;
+  right: 50px;
 }
