@@ -1,3 +1,7 @@
+h1 {
+  font-size: 30pt;
+}
+
 .flexy {
   display: flex;
   justify-content: space-between;
@@ -9,7 +13,7 @@
 }
 
 .Main_txt {
-  width: 35vw;
+  width: 80%;
 }
 
 .vid-container {
@@ -38,27 +42,40 @@ p {
   color: white;
 }
 .pic2 {
-  height: 65vh;
+  height: auto;
   border-radius: 300%;
+  width: 250px;
 }
 .pic3 {
-  height: 45vh;
+  height: auto;
   border-radius: 300%;
   left: 100px;
+  top: 50px;
+  width: 250px;
 }
 table {
   border: 1px solid blue;
-  position: relative;
-  bottom: 250px;
+  display: flex;
+  justify-content: center;
 }
 td {
   border: 1px solid gray;
+  width: 50%;
 }
 
 .pic3-cont {
   display: flex;
   justify-content: end;
   position: relative;
-  bottom: 400px;
-  right: 50px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: white;
+}
+.extra_pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
